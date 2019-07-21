@@ -1546,7 +1546,7 @@ GameObject:
   - component: {fileID: 862692120783710273}
   - component: {fileID: 5311300635389986661}
   m_Layer: 0
-  m_Name: Prefab
+  m_Name: TL01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2632,7 +2632,6 @@ MonoBehaviour:
     handleFixedUpdate: 0
     handleLateUpdate: 0
     handleApplicationEvents: 0
-    handleUiEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
     handleAnimatorIK: 0
@@ -3250,7 +3249,6 @@ MonoBehaviour:
     handleFixedUpdate: 0
     handleLateUpdate: 0
     handleApplicationEvents: 0
-    handleUiEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
     handleAnimatorIK: 0
@@ -3664,7 +3662,6 @@ MonoBehaviour:
     handleFixedUpdate: 0
     handleLateUpdate: 0
     handleApplicationEvents: 0
-    handleUiEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
     handleAnimatorIK: 0
@@ -4952,7 +4949,6 @@ MonoBehaviour:
     handleFixedUpdate: 0
     handleLateUpdate: 0
     handleApplicationEvents: 0
-    handleUiEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
     handleAnimatorIK: 0
@@ -6803,7 +6799,6 @@ MonoBehaviour:
     handleFixedUpdate: 0
     handleLateUpdate: 0
     handleApplicationEvents: 0
-    handleUiEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
     handleAnimatorIK: 0
@@ -10613,7 +10608,6 @@ MonoBehaviour:
     handleFixedUpdate: 0
     handleLateUpdate: 0
     handleApplicationEvents: 0
-    handleUiEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
     handleAnimatorIK: 0
@@ -11447,7 +11441,6 @@ MonoBehaviour:
     handleFixedUpdate: 0
     handleLateUpdate: 0
     handleApplicationEvents: 0
-    handleUiEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
     handleAnimatorIK: 0
@@ -12908,7 +12901,6 @@ MonoBehaviour:
     handleFixedUpdate: 0
     handleLateUpdate: 0
     handleApplicationEvents: 0
-    handleUiEvents: 0
     handleLegacyNetworking: 0
     handleAnimatorMove: 0
     handleAnimatorIK: 0
@@ -13843,16 +13835,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 862692120783710273}
     m_Modifications:
-    - target: {fileID: 2824770377645256599, guid: 73cd1aba29a597149bb3436403eca1c5,
-        type: 3}
-      propertyPath: m_Name
-      value: AlignCamera
-      objectReference: {fileID: 0}
-    - target: {fileID: 2824770377645256599, guid: 73cd1aba29a597149bb3436403eca1c5,
-        type: 3}
-      propertyPath: m_TagString
-      value: Untagged
-      objectReference: {fileID: 0}
     - target: {fileID: 2824770377645256596, guid: 73cd1aba29a597149bb3436403eca1c5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -13908,6 +13890,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2824770377645256599, guid: 73cd1aba29a597149bb3436403eca1c5,
+        type: 3}
+      propertyPath: m_Name
+      value: AlignCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 2824770377645256599, guid: 73cd1aba29a597149bb3436403eca1c5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 2824770377156650267, guid: 73cd1aba29a597149bb3436403eca1c5,
         type: 3}
       propertyPath: m_LocalRotation.x
@@ -13927,6 +13919,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2824770377481123699, guid: 73cd1aba29a597149bb3436403eca1c5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2824770377481123696, guid: 73cd1aba29a597149bb3436403eca1c5,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73cd1aba29a597149bb3436403eca1c5, type: 3}
