@@ -229,11 +229,11 @@ RectTransform:
   m_Father: {fileID: 492342575}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -15, y: -15}
   m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
+  m_Pivot: {x: 1, y: 1}
 --- !u!222 &5464542588624013815
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -259,9 +259,9 @@ MonoBehaviour:
     m_Right: 0
     m_Top: 0
     m_Bottom: 15
-  m_ChildAlignment: 6
-  m_StartCorner: 2
-  m_StartAxis: 0
+  m_ChildAlignment: 2
+  m_StartCorner: 1
+  m_StartAxis: 1
   m_CellSize: {x: 300, y: 100}
   m_Spacing: {x: 0, y: 14}
   m_Constraint: 1
@@ -395,7 +395,7 @@ RectTransform:
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
+  m_Pivot: {x: 1, y: 1}
 --- !u!222 &717998244
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -987,7 +987,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0
+          value: 1
         fsmBoolParams: []
         fsmVector2Params: []
         fsmVector3Params: []

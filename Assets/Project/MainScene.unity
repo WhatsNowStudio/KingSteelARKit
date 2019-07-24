@@ -486,10 +486,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 717998240, guid: 288dc79abd6ae704b95d862aab3d365a, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 717998240, guid: 288dc79abd6ae704b95d862aab3d365a, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
@@ -503,6 +499,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 524688751, guid: 288dc79abd6ae704b95d862aab3d365a, type: 3}
       propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5785616086521269915, guid: 288dc79abd6ae704b95d862aab3d365a,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].position.x
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 5785616086521269915, guid: 288dc79abd6ae704b95d862aab3d365a,
+        type: 3}
+      propertyPath: fsm.states.Array.data[1].position.y
+      value: 218
+      objectReference: {fileID: 0}
+    - target: {fileID: 5785616086521269915, guid: 288dc79abd6ae704b95d862aab3d365a,
+        type: 3}
+      propertyPath: fsm.preprocessed
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
