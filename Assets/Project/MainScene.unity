@@ -411,7 +411,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 229804520}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 7.43, y: 0, z: 2.78}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 9}
@@ -499,21 +499,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 524688751, guid: 288dc79abd6ae704b95d862aab3d365a, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5785616086521269915, guid: 288dc79abd6ae704b95d862aab3d365a,
-        type: 3}
-      propertyPath: fsm.states.Array.data[1].position.x
-      value: 55
-      objectReference: {fileID: 0}
-    - target: {fileID: 5785616086521269915, guid: 288dc79abd6ae704b95d862aab3d365a,
-        type: 3}
-      propertyPath: fsm.states.Array.data[1].position.y
-      value: 218
-      objectReference: {fileID: 0}
-    - target: {fileID: 5785616086521269915, guid: 288dc79abd6ae704b95d862aab3d365a,
-        type: 3}
-      propertyPath: fsm.preprocessed
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -641,6 +626,11 @@ PrefabInstance:
       objectReference: {fileID: 2045406692}
     - target: {fileID: 114780345572847198, guid: 962af5479cb74d04598895a191247250,
         type: 3}
+      propertyPath: fsm.states.Array.data[5].actionData.fsmGameObjectParams.Array.data[2].value
+      value: 
+      objectReference: {fileID: 7}
+    - target: {fileID: 114780345572847198, guid: 962af5479cb74d04598895a191247250,
+        type: 3}
       propertyPath: fsm.states.Array.data[5].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
       objectReference: {fileID: 1809193639}
@@ -652,6 +642,11 @@ PrefabInstance:
     - target: {fileID: 114780345572847198, guid: 962af5479cb74d04598895a191247250,
         type: 3}
       propertyPath: fsm.states.Array.data[5].actionData.fsmOwnerDefaultParams.Array.data[2].gameObject.value
+      value: 
+      objectReference: {fileID: 1809193639}
+    - target: {fileID: 114780345572847198, guid: 962af5479cb74d04598895a191247250,
+        type: 3}
+      propertyPath: fsm.states.Array.data[5].actionData.fsmOwnerDefaultParams.Array.data[3].gameObject.value
       value: 
       objectReference: {fileID: 1809193639}
     - target: {fileID: 114780345572847198, guid: 962af5479cb74d04598895a191247250,
@@ -683,17 +678,17 @@ PrefabInstance:
         type: 3}
       propertyPath: fsm.states.Array.data[1].actionData.fsmOwnerDefaultParams.Array.data[0].gameObject.value
       value: 
-      objectReference: {fileID: 1809193639}
+      objectReference: {fileID: 1167994919832325712}
     - target: {fileID: 114145703276712590, guid: 962af5479cb74d04598895a191247250,
         type: 3}
       propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
       value: 
-      objectReference: {fileID: 1809193639}
+      objectReference: {fileID: 1167994919832325712}
     - target: {fileID: 7626656833664413274, guid: 962af5479cb74d04598895a191247250,
         type: 3}
       propertyPath: fsm.variables.gameObjectVariables.Array.data[0].value
       value: 
-      objectReference: {fileID: 1809193639}
+      objectReference: {fileID: 1167994919832325712}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 962af5479cb74d04598895a191247250, type: 3}
 --- !u!1 &481742511
@@ -1056,4 +1051,10 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4266624117467130, guid: ad2f8ea2bac7e4117ad509404bab9f73,
     type: 3}
   m_PrefabInstance: {fileID: 1657884802}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1167994919832325712 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1167994919832325712, guid: 288dc79abd6ae704b95d862aab3d365a,
+    type: 3}
+  m_PrefabInstance: {fileID: 317191327}
   m_PrefabAsset: {fileID: 0}
