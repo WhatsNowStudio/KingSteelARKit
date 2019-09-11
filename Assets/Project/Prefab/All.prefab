@@ -68,7 +68,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 9147ae5520b41402a8b83824eb4b33c0, type: 3}
-    m_FontSize: 64
+    m_FontSize: 54
     m_FontStyle: 2
     m_BestFit: 0
     m_MinSize: 9
@@ -79,7 +79,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TL-01
+  m_Text: 9804TL2
 --- !u!114 &2117162504154088944
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -261,7 +261,7 @@ MonoBehaviour:
   m_ChildAlignment: 2
   m_StartCorner: 1
   m_StartAxis: 1
-  m_CellSize: {x: 300, y: 100}
+  m_CellSize: {x: 300, y: 150}
   m_Spacing: {x: 0, y: 14}
   m_Constraint: 1
   m_ConstraintCount: 1
@@ -313,8 +313,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8.4, y: -38.4}
-  m_SizeDelta: {x: 400, y: 400}
+  m_AnchoredPosition: {x: 19, y: -16}
+  m_SizeDelta: {x: 450, y: 450}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &655009451
 CanvasRenderer:
