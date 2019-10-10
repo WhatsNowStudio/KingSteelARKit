@@ -525,6 +525,21 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6627921596421860272, guid: 288dc79abd6ae704b95d862aab3d365a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1167994919832325712, guid: 288dc79abd6ae704b95d862aab3d365a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1378461959689560585, guid: 288dc79abd6ae704b95d862aab3d365a,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: bc637a110c521cf4b85e55224221b821, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 288dc79abd6ae704b95d862aab3d365a, type: 3}
 --- !u!1 &317191328 stripped
